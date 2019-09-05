@@ -23,7 +23,7 @@
     <%= form.text_field :description %>
   </div>
 
-    <%setup_team(team).players.each do |player| %>
+    <%setup_team(team).playetrusrs.each do |player| %>
   <%= form.fields_for :players, player do |ff| %>
     <div><p>---Player Details---</p></div>
     <div>
